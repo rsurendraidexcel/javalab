@@ -60,8 +60,6 @@ public class SwitchCase {
            j++;
         }while(j<=15);
         
-  
-        
        System.out.println( String.format("Total value of 10 Seriase Number = %s",sum));
        System.out.println( String.format("Total Factor= %d",fact));
       

@@ -1,28 +1,73 @@
-package com.nabilbank.impl;
-
-import java.util.Scanner;
-
+package com.controle.impl;
 public class ifelse {
+	
+	
+	public void Println() {
+		
+		System.out.println("Prime Number");
+	
+	} 
 
+	
+	public void disaply0() {
+		
+		System.out.println("m1");
+		System.out.println("m1");
+		System.out.println("m1");
+		System.out.println("m1");
+		
+	} 
+	public void disaply1() {
+		
+		System.out.println("x1");
+		System.out.println("x1");
+		System.out.println("x1");
+		System.out.println("x1");
+		System.out.println("x1");
+		System.out.println("x1");
+		System.out.println("x1");
+		System.out.println("x1");
+		System.out.println("x1");
+		System.out.println("x1");
+		
+	} 
+	
+
+	
 	public static void main(String[] args) {
+		
 		// TODO Auto-generated method stub
-       
-		  System.out.println("Enter the Number");
-		  Scanner SN= new Scanner(System.in);
-		 
-		   int i = SN.nextInt();
-		 
-		   if ( i ==10) {
-			   System.out.println("this is 10 increments ");
-		   } else if(i ==20) {
-			   System.out.println("this is 20 increments");
-		   } else if (i==30) {
-			   System.out.println("this is 30 increments");
-		   } else {
-			   System.out.println("all greater then 3o alues"); 
-		   }
 		   
-			
+       int nvalue=2;
+       
+       // call method
+       ifelse obj= new ifelse();
+		     
+		    
+       if(nvalue < 5) { 
+    	   
+    	   System.out.println("small"); 
+    	   obj.disaply0();
+    	   obj.disaply1();
+    	   
+       }else if(nvalue < 30) {
+    	   
+    	   System.out.println("mediam");
+    	   obj.disaply0();
+      
+       }else if (nvalue < 90) { 
+    	  
+    	   System.out.println("very large");
+    	 
+       
+       } else {
+    	  
+    	   System.out.println("no things");
+    	   
+       }
+              		    
 	}
+	
+	
 
 }
